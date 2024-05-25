@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <% newData.forEach(el => { %>
+    <div
+      style="
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h2>id: <%= el.id %></h2>
+      <h2>name: <%= el.name %></h2>
+      <h2>year: <%= el.year %></h2>
+      <h2>genre: <%= el.genre %></h2>
+    </div>
+    <% }) %>
+    <a href="/">Go Back</a>
+  </body>
+</html>

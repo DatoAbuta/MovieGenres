@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Interstellar",
+    "year": "2014",
+    "genre": "Comedy"
+  },
+  {
+    "id": 2,
+    "name": "Home Alone",
+    "year": "1990",
+    "genre": "Drama"
+  },
+  {
+    "id": 3,
+    "name": "Insidious",
+    "year": "2010",
+    "genre": "Horror"
+  },
+  {
+    "id": 4,
+    "name": "The Notebook",
+    "year": "2004 ",
+    "genre": "Romance"
+  },
+  {
+    "id": 5,
+    "name": "Insidious 2",
+    "year": "2015",
+    "genre": "Horror"
+  },
+  {
+    "id": 6,
+    "name": "Home Alone 2",
+    "year": "1995",
+    "genre": "Drama"
+  },
+  {
+    "id": 7,
+    "name": "Titanic",
+    "year": "1997",
+    "genre": "Romance"
+  },
+  {
+    "id": 8,
+    "name": "Bad Boys 4",
+    "year": "2024",
+    "genre": "Comedy"
+  }
+]
