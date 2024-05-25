@@ -14,7 +14,7 @@ app.get("/:genre", (req, res) => {
   const newData = data.filter((el) => el.genre === genre);
 
   if (!newData) {
-    return res.status(404).send("Movies Not Found");
+    return res.status(404).send("Movies Not Found !");
   }
 
   res.render("pages/aboutpage.ejs", { newData });

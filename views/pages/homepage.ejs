@@ -8,12 +8,27 @@
 
   <body>
     <div style="display: flex; align-items: center; flex-direction: column">
-        <div style="display: flex; align-items: center; flex-direction: column">
-        <% data.forEach(el => { %>
-        <div style="width: 200px; height: 200px; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
-            <a href="/<%= el.genre %>" style="text-decoration: none;"><%= el.genre %></a>
-        </div>
-        <% }) %>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          border: 2px solid black;
+        "
+      >
+        <a style="text-decoration: none; margin-bottom: 25px" href="/Comedy"
+          >Comedy</a
+        >
+        <a style="text-decoration: none; margin-bottom: 25px" href="/Romance"
+          >Romance</a
+        >
+        <a style="text-decoration: none; margin-bottom: 25px" href="/Drama"
+          >Drama</a
+        >
+        <a style="text-decoration: none; margin-bottom: 25px" href="/Horror"
+          >Horror</a
+        >
+      </div>
     </div>
   </body>
 </html>
