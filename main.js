@@ -13,11 +13,13 @@ app.get("/:genre", (req, res) => {
   const { genre } = req.params;
   const newData = data.filter((el) => el.genre === genre);
 
+  const newData2 = newData[Math.floor(Math.random() * newData.length)];
+
   if (!newData) {
     return res.status(404).send("Movies Not Found !");
   }
 
-  res.render("pages/aboutpage.ejs", { newData });
+  res.render("pages/aboutpage.ejs", { newData2 });
 });
 
 app.listen(PORT, () => {
